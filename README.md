@@ -1,0 +1,33 @@
+# 🏠 House Price Prediction Project
+
+Benvenuto in questo progetto di Machine Learning.
+L'obiettivo è sviluppare un modello predittivo per stimare i prezzi immobiliari partendo da un dataset reale, applicando tecniche di Data Analysis (EDA) e algoritmi di Regressione.
+
+## 🚧 Stato del Progetto
+**Work in Progress.**
+Attualmente è stata configurata l'infrastruttura di sviluppo, il versionamento.
+
+## 🎯 Obiettivi
+- [x] Setup ambiente virtuale e dipendenze
+- [x] Acquisizione dataset (Housing Prices)
+- [ ] Analisi Esplorativa dei Dati (Notebooks)
+- [ ] Pulizia dati e Feature Engineering
+- [ ] Training del modello (Linear Regression)
+- [ ] Valutazione metriche (MSE, R2 Score)
+
+## 🛠️ Tech Stack
+- **Python 3.14**
+- **Pandas:** Manipolazione dati
+- **Matplotlib:** Visualizzazione dati
+- **Scikit-Learn:** Modellazione AI
+- **Jupyter:** Prototipazione rapida
+
+## 📂 Struttura della Repository
+```text
+├── data/               # Dataset (ignorato da git per dimensione)
+├── notebooks/          # Analisi esplorativa (.ipynb)
+├── venv/               # Ambiente virtuale
+├── main.py             # Script principale
+├── .gitignore          # File esclusi dal versionamento
+├── requirements.txt    # Lista dipendenze
+└── README.md           # Documentazione
