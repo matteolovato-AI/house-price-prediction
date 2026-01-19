@@ -5,12 +5,12 @@ L'obiettivo è sviluppare un modello predittivo per stimare i prezzi immobiliari
 
 ## 🚧 Stato del Progetto
 **Work in Progress.**
-Attualmente è stata configurata l'infrastruttura di sviluppo, il versionamento.
+Migliorando R2 error usando più dati
 
 ## 🎯 Obiettivi
 - [x] Setup ambiente virtuale e dipendenze
 - [x] Acquisizione dataset (Housing Prices)
-- [ ] Analisi Esplorativa dei Dati (Notebooks)
+- [x] Analisi Esplorativa dei Dati (Notebooks)
 - [ ] Pulizia dati e Feature Engineering
 - [ ] Training del modello (Linear Regression)
 - [ ] Valutazione metriche (MSE, R2 Score)
@@ -31,3 +31,20 @@ Attualmente è stata configurata l'infrastruttura di sviluppo, il versionamento.
 ├── .gitignore          # File esclusi dal versionamento
 ├── requirements.txt    # Lista dipendenze
 └── README.md           # Documentazione
+```
+## 📂 Dataset
+Il progetto utilizza il dataset [Kaggle - Housing Prices](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset).
+
+**Istruzioni:**
+1. Scarica il file `Housing.csv` dal link sopra.
+2. Crea una cartella `data/` nella root del progetto.
+3. Inserisci il file csv nella cartella `data/`.
+
+## 🛠️ Installazione
+Assicurati di avere Python installato. Clona la repository e installa le dipendenze:
+
+```bash
+git clone https://github.com/matteolovato-AI/house-price-prediction.git
+cd house-price-prediction
+pip install -r requirements.txt
+```
