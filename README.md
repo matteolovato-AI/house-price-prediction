@@ -4,7 +4,9 @@ Benvenuto in questo progetto di Machine Learning.
 L'obiettivo è sviluppare un modello predittivo per stimare i prezzi immobiliari partendo da un dataset reale, applicando tecniche di Data Analysis (EDA) e algoritmi di Regressione.
 
 ## 🚧 Stato del Progetto
-**Work in Progress.**
+**Work in Progress.**  
+![Python](https://img.shields.io/badge/python-3.14-blue)
+![Status](https://img.shields.io/badge/status-Work_in_progress-yellow)  
 Migliorando R2 error usando più dati
 
 ## 🎯 Obiettivi
