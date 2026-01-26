@@ -7,15 +7,15 @@ L'obiettivo è sviluppare un modello predittivo per stimare i prezzi immobiliari
 **Work in Progress.**  
 ![Python](https://img.shields.io/badge/python-3.14-blue)
 ![Status](https://img.shields.io/badge/status-Work_in_progress-yellow)  
-Migliorando R2 error usando più dati
+Migliorando R2 score usando più dati
 
 ## 🎯 Obiettivi
 - [x] Setup ambiente virtuale e dipendenze
 - [x] Acquisizione dataset (Housing Prices)
 - [x] Analisi Esplorativa dei Dati (Notebooks)
-- [ ] Pulizia dati e Feature Engineering
-- [ ] Training del modello (Linear Regression)
-- [ ] Valutazione metriche (MSE, R2 Score)
+- [x] Pulizia dati e Feature Engineering
+- [x] Training del modello (Linear Regression)
+- [x] Valutazione metriche (MSE, R2 Score)
 
 ## 🛠️ Tech Stack
 - **Python 3.14**
@@ -28,7 +28,7 @@ Migliorando R2 error usando più dati
 ```text
 ├── data/               # Dataset (ignorato da git per dimensione)
 ├── notebooks/          # Analisi esplorativa (.ipynb)
-├── venv/               # Ambiente virtuale
+├── models/             # File del modello (.pkl)
 ├── main.py             # Script principale
 ├── .gitignore          # File esclusi dal versionamento
 ├── requirements.txt    # Lista dipendenze
@@ -37,7 +37,7 @@ Migliorando R2 error usando più dati
 ## 📂 Dataset
 Il progetto utilizza il dataset [Kaggle - Housing Prices](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset).
 
-**Istruzioni:**
+**Istruzioni:** per usare in notebooks
 1. Scarica il file `Housing.csv` dal link sopra.
 2. Crea una cartella `data/` nella root del progetto.
 3. Inserisci il file csv nella cartella `data/`.
