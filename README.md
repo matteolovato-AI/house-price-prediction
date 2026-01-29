@@ -37,7 +37,7 @@ Migliorando R2 score usando più dati
 ## 📂 Dataset
 Il progetto utilizza il dataset [Kaggle - Housing Prices](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset).
 
-**Istruzioni:** per usare in notebooks
+**Istruzioni:** per usare i notebooks
 1. Scarica il file `Housing.csv` dal link sopra.
 2. Crea una cartella `data/` nella root del progetto.
 3. Inserisci il file csv nella cartella `data/`.
